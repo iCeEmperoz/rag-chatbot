@@ -1,4 +1,4 @@
-# 🧠 Multi-Format RAG Chatbot - Hỏi Đáp Tài Liệu Đa Định Dạng
+# Multi-Format RAG Chatbot - Hỏi Đáp Tài Liệu Đa Định Dạng
 
 Chào mừng bạn đến với **Multi-Format RAG Chatbot**, giải pháp RAG (Retrieval-Augmented Generation) cho phép nạp, lập chỉ mục và truy vấn tri thức từ nhiều định dạng tài liệu nội bộ (**PDF, DOCX, CSV**) cơ chế chống ảo tưởng nghiêm ngặt và giải pháp dự phòng tìm kiếm thông minh cục bộ.
 
@@ -6,13 +6,11 @@ Chào mừng bạn đến với **Multi-Format RAG Chatbot**, giải pháp RAG (
 
 ## 📸 Giao Diện Trải Nghiệm Thực Tế
 
-Hệ thống được thiết kế với giao diện Dark Mode pha trộn phong cách Glassmorphism cao cấp, mang lại trải nghiệm mượt mà và trực quan:
-
 ![Giao diện RAG Chatbot](screenshot.png)
 
 ---
 
-## 🏗️ Kiến Trúc Hệ Thống (RAG Architecture)
+## Kiến Trúc Hệ Thống (RAG Architecture)
 
 Hệ thống hoạt động theo quy trình khép kín từ khâu nạp tài liệu cho đến khi trả về câu trả lời có trích dẫn chi tiết:
 
@@ -58,7 +56,7 @@ graph TD
 
 ---
 
-## ⚡ Các Tính Năng Vượt Trội (Key Features)
+## Các Tính Năng Vượt Trội (Key Features)
 
 1.  **Xử Lý Đa Định Dạng Trực Quan:** Tự động chuẩn hóa siêu dữ liệu (metadata) theo từng loại file:
     *   **PDF:** Trích dẫn chính xác đến từng **Trang**.
@@ -123,19 +121,3 @@ Bật giao diện hỏi đáp tương tác trực quan cao cấp bằng lệnh:
 streamlit run app.py
 ```
 Trình duyệt sẽ tự động mở trang web RAG tại địa chỉ: `http://localhost:8501`.
-
----
-
-## 💼 CV-Ready: Cách Đưa Dự Án Này Vào CV Để Gây Ấn Tượng
-
-Dưới đây là gợi ý viết phần Mô tả Dự án (Project Description) trong CV của bạn:
-
-> **Multi-Format RAG Chatbot (Streamlit & LangChain)**
-> *   **Công nghệ sử dụng:** Python, LangChain, Google Gemini API (LLM & Embeddings), ChromaDB, BM25, Streamlit, Pandas.
-> *   **Kết quả đạt được:**
->     *   Xây dựng thành công hệ thống hỏi đáp thông minh (RAG) tự động học dữ liệu đa cấu trúc từ tài liệu **PDF, DOCX, và CSV** với tốc độ lập chỉ mục dưới 5 giây.
->     *   Thiết kế kiến trúc tìm kiếm lai (Hybrid Search-ready) tích hợp **cơ chế tự động dự phòng (Fail-safe)**: tự động chuyển dịch luồng truy vấn sang thuật toán BM25 cục bộ khi gặp lỗi 429 quota exhaustion của Google API.
->     *   Triển khai giải pháp **chống ảo tưởng tri thức (Anti-hallucination)** qua prompt engineering nghiêm ngặt và phát triển giao diện người dùng cao cấp dạng Glassmorphism bằng **Streamlit**, cho phép trích nguồn chính xác đến từng Số trang (PDF), Số dòng (CSV) và Số phần (Word).
-
----
-Chúc bạn học tập vui vẻ và sớm sở hữu một dự án RAG đẳng cấp trong hồ sơ nghề nghiệp của mình! 🚀
