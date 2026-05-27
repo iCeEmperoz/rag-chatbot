@@ -102,20 +102,14 @@ pip install -r requirements.txt
 GOOGLE_API_KEY=your_gemini_api_key_here
 ```
 
-### 3. Tạo Dữ Liệu Mẫu (Tùy chọn)
-Nếu bạn chưa có tài liệu trong thư mục `data/`, bạn có thể chạy script để hệ thống tự tạo ra 3 file mẫu chuẩn chỉnh (PDF trắc nghiệm, DOCX nội quy và CSV báo cáo doanh số):
-```bash
-python generate_samples.py
-```
-
-### 4. Khởi Chạy Pipeline Nạp Dữ Liệu (Indexing)
+### 3. Khởi Chạy Pipeline Nạp Dữ Liệu (Indexing)
 Chạy script indexing để hệ thống bắt đầu học tài liệu từ thư mục `data/` và tạo cơ sở dữ liệu Vector DB cục bộ:
 ```bash
 python 01_indexing.py
 ```
 *Sau khi hoàn tất, script sẽ yêu cầu bạn nhập thử 1 câu hỏi trên Terminal để kiểm tra độ nhạy tìm kiếm.*
 
-### 5. Chạy Thử Giao Diện Web UI (Streamlit)
+### 4. Chạy Thử Giao Diện Web UI (Streamlit)
 Bật giao diện hỏi đáp tương tác trực quan cao cấp bằng lệnh:
 ```bash
 streamlit run app.py
