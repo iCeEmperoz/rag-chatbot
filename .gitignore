@@ -1,0 +1,18 @@
+# API keys & secrets
+.env
+
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Vector DB (lớn, không cần push)
+chroma_db/
+
+# Data
+data/
+
+# IDE
+.vscode/
+.idea/
+*.ipynb_checkpoints
