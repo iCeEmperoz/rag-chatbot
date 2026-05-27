@@ -52,7 +52,7 @@ graph TD
 *   **Cơ Sở Dữ Liệu Vector (VectorDB):** `ChromaDB` (Lưu trữ và truy vấn tương đồng ngữ nghĩa nhanh chóng).
 *   **Giải Pháp Dự Phòng 100% Cục Bộ (Fail-safe Fallback):** `BM25 (rank_bm25)` - tự động kích hoạt khi Google API Key hết hạn (429 Resource Exhausted) giúp hệ thống hoạt động ổn định mọi lúc, mọi nơi.
 *   **Bộ Đọc Định Dạng (Document Loaders):** `PyPDF` (đọc PDF), `python-docx` (đọc Word), và `Pandas` (đọc cấu trúc dòng CSV kèm siêu dữ liệu).
-*   **Giao Diện Web (Web UI):** `Streamlit` tùy biến sâu bằng CSS Custom mang lại phong cách Glassmorphism đỉnh cao.
+*   **Giao Diện Web (Web UI):** `Streamlit` tùy biến sâu bằng CSS Custom.
 
 ---
 
